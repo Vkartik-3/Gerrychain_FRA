@@ -1,0 +1,51 @@
+# GerryChain Example Scripts - Required Dependencies
+# Installation: pip install -r requirements.txt
+
+# Core Dependencies (Required for all scripts)
+pandas>=2.0.0
+scipy>=1.10.0
+networkx>=3.0
+matplotlib>=3.7.0
+
+# Geographic/Spatial Dependencies (Required for GerryChain)
+geopandas>=0.12.2
+shapely>=2.0.1
+pyproj>=3.5.0
+pyogrio>=0.7.2
+
+# Additional utilities that may be needed
+numpy>=1.24
+
+# GerryChain itself (install from source in development mode)
+# Installation command: pip install -e .
+# This is already installed if you ran: pip install -e . from the project root
+
+# Python Version Requirement
+# Python 3.9, 3.10, 3.11, 3.12, or 3.13
+# Officially supported: 3.9-3.12
+# Tested working on: 3.13.2
+
+# Platform Notes:
+# - macOS (Apple Silicon/ARM64): All dependencies work correctly
+# - Linux: Should work without issues
+# - Windows: May require additional setup for spatial libraries
+
+# Installation Instructions:
+# 1. Create virtual environment:
+#    python3 -m venv .venv
+#    source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+#
+# 2. Upgrade pip:
+#    pip install --upgrade pip
+#
+# 3. Install dependencies:
+#    pip install -r requirements.txt
+#
+# 4. Install GerryChain in development mode:
+#    pip install -e .
+#
+# 5. Set reproducibility environment variable (add to .venv/bin/activate):
+#    export PYTHONHASHSEED=0
+#
+# 6. Verify installation:
+#    python test_installation.py
