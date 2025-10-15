@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(./download_states.sh)",
+      "Bash(for state in */)",
+      "Bash(do echo \"=== $state%/ ===\")",
+      "Bash(find:*)",
+      "Bash(done)",
+      "Bash(export PYTHONPATH=\"/Users/kartikvadhawana/Desktop/FRA/GerryChain:$PYTHONPATH\")",
+      "Bash(python:*)",
+      "Read(//private/tmp/**)",
+      "WebFetch(domain:redistrictingdatahub.org)",
+      "WebSearch",
+      "WebFetch(domain:dataverse.harvard.edu)",
+      "Bash(curl:*)",
+      "Bash(unzip:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
