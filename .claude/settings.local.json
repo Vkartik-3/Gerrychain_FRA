@@ -14,7 +14,11 @@
       "WebSearch",
       "WebFetch(domain:dataverse.harvard.edu)",
       "Bash(curl:*)",
-      "Bash(unzip:*)"
+      "Bash(unzip:*)",
+      "Bash(PYTHONPATH=\"/Users/kartikvadhawana/Desktop/FRA/GerryChain:$PYTHONPATH\" python scripts/real_data/multi_state_detection.py)",
+      "Bash(source .venv/bin/activate)",
+      "Bash(git add:*)",
+      "Bash(timeout 180 python:*)"
     ],
     "deny": [],
     "ask": []
